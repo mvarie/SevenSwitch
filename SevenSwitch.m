@@ -322,6 +322,14 @@
     offImageView.image = image;
 }
 
+-(void)setOnView:(UIView *)view{
+    [onImageView addSubview:view];
+}
+
+-(void)setOffView:(UIView *)view{
+    [offImageView addSubview:view];
+}
+
 
 /*
  *	Sets whether or not the switch edges are rounded.

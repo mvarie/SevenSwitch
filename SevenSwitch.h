@@ -100,6 +100,8 @@
  */
 @property (nonatomic, strong) UIImage *offImage;
 
+-(void)setOnView:(UIView *)view;
+-(void)setOffView:(UIView *)view;
 
 /*
  * Set whether the switch is on or off. Optionally animate the change
